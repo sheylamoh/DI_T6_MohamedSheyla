@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Salón habana</title>
+  </head>
+  <body>
+    <h1 align="center">
+      <b>Salón Habana</b>
+    </h1>
+    <p>Está página de documentación corresponde con la opción del menu Salón habana. Donde podremos realizar una reserva.</p>
+    <h3>
+      <b><u>Datos del Cliente</u></b>
+    </h3>
+    <li>La sección de datos del cliente consta de 4 campos rellenables:</li>
+    <ul>
+      <li>DNI</li>
+      <li>Nombre</li>
+      <li>Dirección</li>
+      <li>Teléfono</li>
+    </ul>
+    <li>En este apartado debemos introducir un <b>DNI (8 números y 1 carácter de la A-Z)</b> para poder habilitar los campos una vez rellenado el campo debemos pulsar la tecla <b>ENTER</b> para capturar el campo y seguir con la reserva, en cuyo caso hayamos realizado anteriormente una reserva se rellenarán nuestros campos automáticamente. </li>
+    <li>Una vez introducido el <b>DNI</b> debemos introducir un nombre válido, una dirección válida y un teléfono que empiece por 6-7-9, en el caso que el nombre o el teléfono no se ha introducido correctamente saltara una alerta de que el campo no se ha introducido correctamente por lo cual deberá introducir un nombre correcto o teléfono.</li>
+    <h3>
+      <b><u>Datos de la reserva</u></b>
+    </h3>
+    <li>La sección de datos de reserva consta: </li>
+    <ul>
+      <li>Tipo de evento</li>
+      <li>Número de personas del banquete, tipo de cocina</li>
+      <li>Habitaciones,¿Cuántas?</li>
+      <li>Fecha de evento</li>
+      <li>Número de dias de reserva</li>
+    </ul>
+    <li>Debemos seleccionar un tipo de evento, si seleccionamos <b>Banquete</b> se nos habilitará el número de personas, una vez insertado el número de personas (como máximo 100) se nos habilitará el tipo de cocina. Si seleccionamos <b>Jornada</b> no necesitaremos rellenar ningún campo adicional solo el número de personas (como má;ximo 100) y la fecha de evento. Si seleccionamos <b>Congreso</b> si necesitas habitaciones debe indicar cuantas y el número de días de instancia.</li>
+    <li>La fecha de evento solo podrá ser de la fecha actual en adelante.</li>
+    <h3>
+      <b><u>Funcionalidad de los botones</u></b>
+    </h3>
+    <li><b>Limpiar:</b> Pone todos los campos vacíos, independientemente si ha rellenado un campo.</li>
+    <li><b>Aceptar:</b> Para guardar la reserva en la base de datos, si no ha rellenado un campo correctamente se le indicará con mensaje de alerta correspondiente.</li>
+    <li><b>Cancelar:</b> Cancelará la reserva que estamos haciendo, nos saldrá una ventana de si estamos seguro de cancelar la reserva y volverá a la ventana principal.</li>
+    <h3>
+      <b><u>Temporizador</u></b>
+    </h3>
+    <li>En la parte de abajo tenemos un temporizador que nos indica el tiempo de duración de la reserva si sobrepasamos el <b>tiempo límite de 60 segundos</b> se nos mostrará un mensaje de que ha caducado la sesión en la que debemos cerrar la ventana y volverla a abrir para realizar una reserva (una vez caducada la sesión los datos no se conservarán).</li>
+  </body>
+</html>
